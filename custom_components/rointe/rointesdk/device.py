@@ -57,7 +57,7 @@ class RointeDevice:
 
     # Schedule
     schedule: list[str]
-    schedule_day: int
+    #schedule_day: int
     schedule_hour: int
 
     energy_data: EnergyConsumptionData
@@ -109,7 +109,7 @@ class RointeDevice:
 
         self.ice_mode = bool(data["ice_mode"])
         self.schedule = data["schedule"]
-        self.schedule_day = data["schedule_day"]
+        #self.schedule_day = data["schedule_day"]
         self.schedule_hour = data["schedule_hour"]
 
         self.energy_data = energy_data
