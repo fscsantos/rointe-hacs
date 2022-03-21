@@ -5,9 +5,9 @@ from __future__ import annotations
 from datetime import datetime
 import logging
 
-from rointesdk.device import RointeDevice, ScheduleMode
-from rointesdk.dto import EnergyConsumptionData
-from rointesdk.rointe_api import ApiResponse, RointeAPI
+from .rointesdk.device import RointeDevice, ScheduleMode
+from .rointesdk.dto import EnergyConsumptionData
+from .rointesdk.rointe_api import ApiResponse, RointeAPI
 
 from homeassistant.components.climate.const import PRESET_COMFORT, PRESET_ECO
 from homeassistant.core import HomeAssistant

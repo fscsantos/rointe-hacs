@@ -4,7 +4,7 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from rointesdk.rointe_api import RointeAPI
+from .rointesdk.rointe_api import RointeAPI
 import voluptuous as vol
 
 from homeassistant import config_entries

@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import logging
 
-from rointesdk.rointe_api import ApiResponse, RointeAPI
+from .rointesdk.rointe_api import ApiResponse, RointeAPI
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
